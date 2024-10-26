@@ -18,7 +18,7 @@ def main():
     book1 = (book_builder.set_title("The Great Gatsby")
                           .set_author("F. Scott Fitzgerald", "American novelist")
                           .set_genre(fiction_genre)
-                          .set_isbn("9780743273565")
+                          .set_isbn("9780743273578")
                           .build())
 
     # Add book to the library
