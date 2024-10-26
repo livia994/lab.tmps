@@ -5,7 +5,7 @@ class BookBuilder:
         self.title = None
         self.author = None
         self.genre = None
-        self.isbn = None
+        self.id = None
 
     def set_title(self, title):
         self.title = title
@@ -19,9 +19,9 @@ class BookBuilder:
         self.genre = Genre(genre_name)
         return self
 
-    def set_isbn(self, isbn):
-        self.isbn = isbn
+    def set_id(self, id):
+        self.id = id
         return self
 
     def build(self):
-        return Book(self.title, self.author, self.genre, self.isbn)
+        return Book(self.title, self.author, self.genre, self.id)

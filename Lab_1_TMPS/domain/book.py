@@ -19,11 +19,11 @@ class Genre:
 
 
 class Book:
-    def __init__(self, title, author, genre, isbn):
+    def __init__(self, title, author, genre, id):
         self.title = title
         self.author = author
         self.genre = genre
-        self.isbn = isbn
+        self.id = id
 
     def __str__(self):
-        return f"'{self.title}' by {self.author} [Genre: {self.genre}, ISBN: {self.isbn}]"
+        return f"'{self.title}' by {self.author} [Genre: {self.genre}, ID: {self.id}]"
