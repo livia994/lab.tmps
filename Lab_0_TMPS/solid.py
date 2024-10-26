@@ -86,7 +86,7 @@ borrow_manager = BorrowManager(StandardPolicy())
 # Borrow two books
 borrow_manager.borrow_book(book1)
 borrow_manager.borrow_book(book2)
-borrow_manager.borrow_book(book3)  # This should fail due to the borrowing limit
+borrow_manager.borrow_book(book3)
 
 # Display books again to see the status
 print("\nAfter Borrowing:")
