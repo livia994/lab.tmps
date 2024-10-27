@@ -15,7 +15,7 @@ class Genre:
 
 
     def __str__(self):
-        return f"Genre: {self.name}"
+        return f"{self.name}"
 
 
 class Book:
