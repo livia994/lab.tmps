@@ -1,4 +1,3 @@
-
 class BookDiscountDecorator:
     def __init__(self, book, discount):
         self.book = book
