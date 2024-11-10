@@ -1,4 +1,4 @@
-Lab_1_TMPS: Structural Design Patterns
+Lab_2_TMPS: Structural Design Patterns
 ----------------------------------------
 ### Author: Gîncu Olivia
 
@@ -6,7 +6,6 @@ Lab_1_TMPS: Structural Design Patterns
 1. Study and understand the Structural Design Patterns.
 2. As a continuation of the previous laboratory work, think about the functionalities that your system will need to provide to the user.
 3. Implement some additional functionalities using structural design patterns.
-4. 
 ### Domain:
 For this project, I have continued my library system created for Lab 1. The system manages books, authors, genres and allows users to add, delete, lend a book, list books in library and also a user can input the price of a book in his library and add a discount to it in form of (0.20 as 20%). This lab improves my first lab by implementing structural design patterns to improve how objects and classes are organized. 
 
